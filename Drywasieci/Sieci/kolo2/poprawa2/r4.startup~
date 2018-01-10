@@ -1,0 +1,6 @@
+ifconfig eth0 172.12.4.98 netmask 255.255.255.224 broadcast 172.12.4.127 up
+ifconfig eth1 172.12.4.130 netmask 255.255.255.224 broadcast 172.12.4.159 up
+ifconfig eth2 172.12.4.161 netmask 255.255.255.224 broadcast 172.12.4.189 up
+route add -net 172.12.4.0 netmask 255.255.255.224 gw 172.12.4.97 dev eth0
+route add -net 172.12.4.32 netmask 255.255.255.224 gw 172.12.4.129 dev eth1
+route add -net 172.12.4.64 netmask 255.255.255.224 gw 172.12.4.161 dev eth2

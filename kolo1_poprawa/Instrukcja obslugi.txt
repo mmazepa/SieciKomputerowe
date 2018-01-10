@@ -1,0 +1,8 @@
+1. Kompilujemy program
+g++ kolo1_poprawa.cpp -o kolo
+2. Uruchamiamy program
+./kolo
+3. Mozesz sprawdzic dla danych, ktore przygotowalem przez polecenie:
+./kolo<test_kolo.txt
+lub z danymi Darii
+./kolo<test_kolo_Daria.txt

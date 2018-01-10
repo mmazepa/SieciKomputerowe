@@ -1,0 +1,2 @@
+dhclient
+route add default gw 172.12.4.1

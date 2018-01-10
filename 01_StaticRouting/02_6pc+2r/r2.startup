@@ -1,0 +1,5 @@
+ifconfig eth0 192.168.240.2 netmask 255.255.254.0 broadcast 192.168.241.255 up
+ifconfig eth1 192.168.248.1 netmask 255.255.254.0 broadcast 192.168.249.255 up
+ifconfig eth2 192.168.246.1 netmask 255.255.254.0 broadcast 192.168.247.255 up
+route add -net 192.168.242.0 netmask 255.255.254.0 gw 192.168.240.1 dev eth0
+route add -net 192.168.244.0 netmask 255.255.254.0 gw 192.168.240.1 dev eth0

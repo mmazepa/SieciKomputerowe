@@ -1,0 +1,7 @@
+ifconfig eth0 192.168.192.10 netmask 255.255.255.252 broadcast 192.168.192.11 up
+ifconfig eth1 192.168.192.14 netmask 255.255.255.252 broadcast 192.168.192.15 up
+ifconfig eth2 192.168.192.18 netmask 255.255.255.252 broadcast 192.168.192.19 up
+ifconfig eth3 192.168.192.25 netmask 255.255.255.252 broadcast 192.168.192.27 up
+/etc/init.d/zebra start
+
+route add -net 192.168.194.0 netmask 255.255.255.0 gw 192.168.192.26 dev eth3

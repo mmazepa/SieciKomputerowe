@@ -1,0 +1,3 @@
+ifconfig eth0 192.168.194.25 netmask 255.255.255.252 broadcast 192.168.194.27 up
+ifconfig eth1 192.168.194.30 netmask 255.255.255.252 broadcast 192.168.194.31 up
+ifconfig eth2 192.168.193.1 netmask 255.255.255.0 broadcast 192.168.193.255 up

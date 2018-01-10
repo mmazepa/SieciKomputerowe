@@ -1,0 +1,13 @@
+$TTL   60000
+@               IN      SOA     ns.my.net    root.ns.my.net (
+                        2016050701 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+ 
+@               IN      NS      ns.my.net.
+dns      IN  A   192.168.2.3
+poczta      IN  A   192.168.2.2
+dhcp      IN  A   192.168.2.1

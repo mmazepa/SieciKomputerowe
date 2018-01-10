@@ -1,0 +1,9 @@
+default-lease-time 600;
+max-lease-time 7200;
+
+subnet 172.12.4.0 netmask 255.255.255.0 {
+range 172.12.4.2 172.12.4.30;
+option routers 172.12.4.1;
+option broadcast-address 172.12.4.31;
+}
+

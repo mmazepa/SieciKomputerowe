@@ -1,0 +1,5 @@
+ifconfig eth0 172.12.4.98 netmask 255.255.255.224 broadcast 172.12.4.127 up
+ifconfig eth1 172.12.4.130 netmask 255.255.255.224 broadcast 172.12.4.159 up
+ifconfig eth2 172.12.4.162 netmask 255.255.255.224 broadcast 172.12.4.191 up
+ifconfig eth3 172.12.4.193 netmask 255.255.255.224 broadcast 172.12.4.223 up
+/etc/init.d/zebra start

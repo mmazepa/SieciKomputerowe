@@ -1,0 +1,5 @@
+/sbin/ifconfig eth0 172.16.5.2 netmask 255.255.255.252 broadcast 172.16.5.3
+/sbin/ifconfig eth1 172.16.7.1 netmask 255.255.255.252 broadcast 172.16.7.3
+/sbin/ifconfig eth2 172.16.4.2 netmask 255.255.255.252 broadcast 172.16.4.3
+route add default gw 172.16.8.2
+/etc/init.d/zebra start

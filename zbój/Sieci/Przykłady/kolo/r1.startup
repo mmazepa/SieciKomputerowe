@@ -1,0 +1,4 @@
+/sbin/ifconfig eth0 172.16.1.2 netmask 255.255.255.0 broadcast 172.16.1.255
+/sbin/ifconfig eth1 172.16.2.1 netmask 255.255.255.252 broadcast 172.16.2.3
+route add -net 172.16.0.0/16 gw 172.16.2.2
+route add default gw 172.16.8.2

@@ -1,0 +1,29 @@
+1. Najpierw konfigurujemy lab.conf czyli wpisujemy routery i pcty i przypisane do nich sieci
+2. Konfigurujemy startup'y wszystkich maszyn, wpisujemy ethX coœtam coœtam, jak zawsze.
+3. W pctach wpisujemy t¹ linijkê o "route add default gw...".
+4. W routerach dajemy "/etc/init.d/zebra start"
+5. W katalogach routerów tworzymy tak¹ œcie¿kê z katalogów "etc/zebra"
+6. W katalogu zebra tworzymy trzy pliki:
+a) deamons - w œrodku dajemy
+"zebra=yes
+bgpd=no
+ospfd=no
+ospf6d=no
+ripd=yes
+ripngd=no"
+b) zebra.conf - w œrodku dajemy
+"hostname zebra
+password zebra
+enable password zebra
+log file /var/log/zebra/zebra.log"
+c) ripd.conf - w œrodku dajemy
+"hostname ripd
+password zebra
+enable password zebra
+router rip
+redistribute connected
+redistribute kernel
+network 192.168.1.0/24
+log file /var/log/zebra/ripd.log"
+------------------------------------------
+UWAGA! W 6. c. jest linijka network. Tam zamiast 192.168.1.0/24 wpisujemy t¹ g³ówn¹ sieæ do podzia³u. Wg zdjêæ z zadania wpisalibyœmy np 192.168.192.0/24

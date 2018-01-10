@@ -1,0 +1,12 @@
+$TTL   60000
+@               IN      SOA     ns.office    root.ns.office (
+                        1111111101 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      ns.office.
+dserv		IN	A	172.94.5.130
+routeA		IN	A	172.94.5.1
+routeB		IN	A	172.94.5.129

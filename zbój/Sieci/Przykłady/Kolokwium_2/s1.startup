@@ -1,0 +1,3 @@
+ifconfig eth0 172.94.5.130 netmask 255.255.255.128 broadcast 172.94.5.255 up
+route add default gw 172.94.5.129 dev eth0
+/etc/init.d/bind start

@@ -1,0 +1,5 @@
+ifconfig eth0 172.12.4.1 netmask 255.255.255.224 broadcast 172.12.4.31 up
+ifconfig eth1 172.12.4.97 netmask 255.255.255.224 broadcast 172.12.4.127 up
+route add default gw 172.12.4.98
+dhcpd3 start eth0
+

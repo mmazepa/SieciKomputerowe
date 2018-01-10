@@ -1,0 +1,63 @@
+Podaj ogolny adres sieci w formacie ip/maska (np. 172.12.4.0/24)
+Podaj tylko IP sieci (np. 172.12.4.0)
+Podaj ogolna maske dla sieci w formacie *.*.*.*
+Podaj maske dla PCtow
+Podaj maske dla routerow
+
+Tworzenie lab.conf i startup�w
+Ile chcesz dodac routerow?
+Stworzono drzewo folderow r1
+Ile router 1 bedzie mial eth?
+Podaj litere dla routera 1 dla eth0
+Podaj IP dla routera 1 dla eth 0
+Podaj broadcast dla routera 1 dla eth 0
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Stworzono folder pc1
+Podaj IP dla PC 1
+Stworzono startup dla PC 1
+Podaj litere dla routera 1 dla eth1
+Podaj IP dla routera 1 dla eth 1
+Podaj broadcast dla routera 1 dla eth 1
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Podaj litere dla routera 1 dla eth2
+Podaj IP dla routera 1 dla eth 2
+Podaj broadcast dla routera 1 dla eth 2
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Dodano zebre
+Stworzono drzewo folderow r2
+Ile router 2 bedzie mial eth?
+Podaj litere dla routera 2 dla eth0
+Podaj IP dla routera 2 dla eth 0
+Podaj broadcast dla routera 2 dla eth 0
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Stworzono folder pc2
+Podaj IP dla PC 2
+Stworzono startup dla PC 2
+Podaj litere dla routera 2 dla eth1
+Podaj IP dla routera 2 dla eth 1
+Podaj broadcast dla routera 2 dla eth 1
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Podaj litere dla routera 2 dla eth2
+Podaj IP dla routera 2 dla eth 2
+Podaj broadcast dla routera 2 dla eth 2
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Dodano zebre
+Stworzono drzewo folderow r3
+Ile router 3 bedzie mial eth?
+Podaj litere dla routera 3 dla eth0
+Podaj IP dla routera 3 dla eth 0
+Podaj broadcast dla routera 3 dla eth 0
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Stworzono folder pc3
+Podaj IP dla PC 3
+Stworzono startup dla PC 3
+Podaj litere dla routera 3 dla eth1
+Podaj IP dla routera 3 dla eth 1
+Podaj broadcast dla routera 3 dla eth 1
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Podaj litere dla routera 3 dla eth2
+Podaj IP dla routera 3 dla eth 2
+Podaj broadcast dla routera 3 dla eth 2
+Czy chcesz dodac PC'ta do tej litery? (1-tak, 2-nie)
+Dodano zebre
+Stworzono lab.conf

@@ -1,0 +1,6 @@
+ifconfig eth0 10.24.17.33 netmask 255.255.255.224 broadcast 10.24.17.63 up
+ifconfig eth1 10.24.17.98 netmask 255.255.255.224 broadcast 10.24.17.127 up
+ifconfig eth2 10.24.17.193 netmask 255.255.255.224 broadcast 10.24.17.223 up
+route add -net 10.24.17.0 netmask 255.255.255.224 gw 10.24.17.194 dev eth2
+/etc/init.d/dhcp3-server start
+
